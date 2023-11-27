@@ -1,6 +1,17 @@
+body {
+    max-width: 90%;
+    margin: 0 auto; 
+    background: radial-gradient(circle, #E7EFF6, #99B9D8);
+    background-image: url('vic.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
 p,
-ul {
-	font-size: 12px;
+ul,
+blockquote {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: rgb(128, 20, 128);
     font-size: 16px;
@@ -21,13 +32,23 @@ a:visited {
         color: #98969b;
 }
 
+img {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;  
+}
+
+figcaption{
+    text-align: center;
+}
+
 a img {
-    
-    width: 300px; 
-    height: auto; /* Maintain aspect ratio */
-    border: 2px solid #0077cc; /* Example border style */
-    border-radius: 5px; /* Example border radius */
-    /* Additional styles */
+
+    height: 200px; 
+    border: 2px solid #0077cc; 
+    border-radius: 5px; 
+ 
 }
 
 a img:hover {
@@ -36,4 +57,35 @@ a img:hover {
 
 a img:hover {
     border-color: #928985;
+}
+
+.quote,
+.quote2 {
+    max-width: 50%;
+    margin: 80px auto;
+    border-left: 4px solid #c9cc00; 
+    padding-left: 30px;
+    background-color: rgb(221, 219, 219);
+      }
+
+.quote2 {
+    border-left: 3px solid;
+    border-color: firebrick ;
+    padding-left: 30px;
+     }  
+
+.quote-text,
+.secondquote-text {
+    color: rgb(24, 15, 1);
+    font-style: italic; 
+    margin-bottom: 10px; 
+}
+
+.quote-text {
+    font-size:20px;
+}
+
+.author {
+    color: rgb(24, 15, 1);
+    font-weight: bold; 
 }
