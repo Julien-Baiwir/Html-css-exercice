@@ -1,0 +1,39 @@
+p,
+ul {
+	font-size: 12px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: rgb(128, 20, 128);
+    font-size: 16px;
+    line-height: 1.5;
+} 
+
+a {
+    color: #0077cc; 
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ff5500; 
+    text-decoration: none; 
+  }
+
+a:visited {
+        color: #98969b;
+}
+
+a img {
+    
+    width: 300px; 
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #0077cc; /* Example border style */
+    border-radius: 5px; /* Example border radius */
+    /* Additional styles */
+}
+
+a img:hover {
+    border-color: #ff5500;
+}
+
+a img:hover {
+    border-color: #928985;
+}
