@@ -1,1 +1,1 @@
-# html-css-chinese-story
+# exercice HTML/CSS
